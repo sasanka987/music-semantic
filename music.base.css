@@ -1,0 +1,389 @@
+@CHARSET "ISO-8859-1";
+/*
+* Web Fonts from thesitewhereyougotit.com
+*
+* Font copyright information, which you should 
+* never delete and should always be included 
+* in your CSS where ever you call the fonts files. 
+* Copyrights matter.
+
+* author : Sasanka Amarasiri
+* date : 15th April 2015
+*
+*/
+@font-face {
+	font-family: 'FjordOne-Regular';
+	src: url('../fonts/FjordOne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'FjordOne-Regular', serif;
+	padding-top: 70px; /* newly added */
+	background-image: url(../images/bg.jpg);
+}
+
+.container .col-md-8 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media only screen and (min-width : 991px) {
+	.container .col-md-9 {
+		padding-right: 15px;
+	}
+}
+
+.section1 .col-md-8,.section1 .col-xs-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-brand-centered {
+	position: absolute;
+	left: 50%;
+	display: block;
+	width: 160px;
+	text-align: center;
+}
+
+.navbar>.container .navbar-brand-centered,.navbar>.container-fluid .navbar-brand-centered
+	{
+	margin-left: -80px;
+	margin-top: 8px;
+}
+
+.navbar {
+	margin-top: 1.5%;
+	font-size: 9pt;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
+	{
+	background-color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 1);
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+	background-color: rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default {
+	border: none;
+}
+
+.navbar-default .container {
+	background-color: rgb(207, 0, 15);
+	/* -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar-brand, navbar-brand-centered {
+	background-image: url("../images/128X43_EChanneller_LOGO_1.png");
+	background-repeat: no-repeat; /* don't tile the image */
+	background-size: 90px 30px;
+}
+
+.section0 {
+	margin-bottom: 1.5%;
+}
+
+.section1 {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	margin-bottom: 1.5%;
+}
+
+.section01 {
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	margin-bottom: 1.5%;
+}
+
+.section01 .container{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	height: 300px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.section1 .col-xs-12 {
+	height: 8%;
+}
+
+.section2 {
+	width: 100%;
+	height: auto;
+	margin-top: 5%;
+	margin-bottom: 0.5%;
+}
+
+.section2 .searched_results{
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+.section7 {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	color: rgba(255, 255, 255, 0.9);
+	padding-top: 1%;
+	margin-bottom: 1.5%;
+}
+
+.section7 .container {
+	background-color: rgb(207, 0, 15);
+/* 	-moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1); */
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.section7  .col-md-2{
+	padding-top: 1.2%;
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	text-align: right;
+}
+
+.section7 .col-md-7{
+	padding-top: 2%;
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section7  .col-md-3{
+	padding-top: 1.5%;
+}
+
+.error_section{
+	width: 100%;
+	height: auto;
+	padding: 1% 1% 1% 1%;
+}
+
+.text-to-right {
+	text-align: right;
+}
+
+.text-to-center {
+	text-align: center;
+}
+
+h1 {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+h5 {
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+h6 {
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+h3 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h3 ul li {
+	display: inline;
+	padding-left: 50px;
+}
+
+.bottom-space {
+	padding-bottom: 12px;
+}
+
+.top-space {
+	padding-top: 15px;
+}
+
+p {
+	/*text-align: justify;*/
+	line-height: 30px;
+	/*letter-spacing: 0.5px;*/
+}
+
+/****** Responsive Video - Start *******/
+.responsive-video {
+	/*position: relative;*/
+	padding-bottom: 100%;
+	/*padding-top: 60px;*/
+	overflow: hidden;
+}
+
+.responsive-video iframe,.responsive-video object,.responsive-video embed
+	{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/****** Responsive Video - End *******/
+#map-canvas {
+	/*width:33.3333%;*/
+	height: calc(100% - 0);
+	/*position:absolute;
+    right:16px;*/
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.btn-default {
+	background-color: rgb(207, 0, 15);
+	color: rgb(255, 255, 255);
+}
+
+.btn {
+	border-radius: 0;
+	/* border: none; */
+}
+
+.btn-default:hover {
+	background-color: rgba(207, 0, 15, .5);
+	color: rgb(255, 255, 255);
+}
+
+.text-white {
+	color: rgb(255, 255, 255);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.dotted-hr {
+	border-top: 1px dotted rgba(207, 0, 15, .9);
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+}
+
+.filled-hr {
+	border-top: 1px solid rgba(189, 22, 34, .9);
+	color: #fff;
+	background-color: #fff;
+	height: 5px;
+}
+
+.bottom-hr {
+	border-top: 1px solid rgba(207, 0, 15, 0.1);
+	height: 1px;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+	border-color: rgba(207, 0, 15, .6);
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(189, 22, 34, .2);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(189, 22, 34, .2);
+}
+
+.make-text-red {
+	color: rgb(229, 51, 42);
+}
+
+.make-text-red-light {
+	color: rgba(229, 51, 42, .6);
+}
+
+.font-heavy {
+	font-family: 'assemblysskregular', Arial, sans-serif;
+}
+
+a {
+	color: rgba(255, 255, 255, .8);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.section0 .col-md-1 {
+	display: none;
+}
+
+.text_shadow {
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.glyphicon-size {
+	font-size: 70pt;
+}
+
+footer .container {
+	background-color: rgb(207, 0, 15);
+	color: rgba(255, 255, 255, 0.7);
+	padding-top: 15px;
+}
+
+#map-canvas {
+    height: calc(100% - 0);
+    padding-bottom: 5px;
+    overflow:hidden;
+}
